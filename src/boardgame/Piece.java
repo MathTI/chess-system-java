@@ -5,12 +5,12 @@ public class Piece {
 	protected Position position;
 	private Board board;
 	
-	private Piece(Board board) {
+	public Piece(Board board) {
 		position = null;
 		this.board = board;
 	}
 
-	protected Board getBoard() {
+	public Board getBoard() {
 		return board;
 	}
 		
